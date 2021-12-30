@@ -1,10 +1,10 @@
 {
   "title": "Home",
   "titleTemplate": "| Bluise",
-  "welcomeText": "# Yo, I'm Bluise - A Nuxt.js & Netlify CMS boilerplate.\n\nAuthentic cred hoodie hashtag selfies. Raclette banjo cardigan cred. Kitsch XOXO lomo polaroid. Knausgaard put a bird on it four dollar toast leggings typewriter asymmetrical.",
+  "welcomeText": "# Aloha Hawaii speed daters!! Welcome to an exciting fun way to meet new people. \n\nRecently created by two inspired and creative Maui residents to expand our desires to meet new people. Hawaii speed dating events are held outdoors in Kihei, Lahaina and Kahului at local oceanside beach parks from 3:30-5:30 Sundays. Arrive at 3:15. Event begins at 3:30 please do not be late, tardiness impacts the entire group flow. Let’s all make good first impressions. Group size is limited to 10 men and 10 women, first come first serve.",
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "seoDescription": "Hawaii Speed Dating",
   "seoMetaImage": ""
 }
