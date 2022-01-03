@@ -3,23 +3,12 @@
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-start">
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
-        <img
-          alt="Jenn and Bonnie"
-          class="rounded shadow-lg block md:w-4/5 lg:w-4/5 xl:hidden"
-          src="@/assets/jenn_bonnie.jpeg"
-        />
-        <div v-html="$md.render(welcomeText2)" class="home__welcome markdown" />
       </div>
       <div class="flex flex-col md:w-4/5 lg:w-4/5 xl:w-2/5 xl:pl-5">
         <img
-          alt="Ocean shore with heart in sand"
+          alt="Ocean shore with a heart in sand"
           class="rounded shadow-xl"
           src="@/assets/ocean_shore.jpg"
-        />
-        <img
-          alt="Jenn and Bonnie"
-          class="rounded shadow-xl mt-24 hidden xl:block"
-          src="@/assets/jenn_bonnie.jpeg"
         />
       </div>
     </div>
