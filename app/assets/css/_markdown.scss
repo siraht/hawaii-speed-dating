@@ -101,7 +101,6 @@
 }
 
 .markdown img {
-  @apply rounded shadow-lg
   @media (min-width: 768px) {
     width: 80%;
   }
@@ -109,8 +108,9 @@
     width: 80%;
   }
   @media (min-width: 1280px) {
-    display: none;
+    width: 100%
   }
+  @apply rounded shadow-lg
 }
 
 /* @media screen(md) {
