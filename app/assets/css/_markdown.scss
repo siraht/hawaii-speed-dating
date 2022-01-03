@@ -100,10 +100,6 @@
   @apply border py-1 px-3;
 }
 
-.markdown img {
-  @apply rounded shadow-lg block;
-}
-
 /* Override pygments style background color. */
 .markdown .highlight pre {
   @apply bg-gray-100;
