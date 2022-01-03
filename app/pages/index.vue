@@ -4,10 +4,14 @@
       <div class="flex flex-col w-full xl:w-3/5 justify-center lg:items-start overflow-y-hidden">
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
       </div>
-      <div class="flex flex-col w-full xl:w-2/5 xl:pl-5">
-        <img alt="Jenn and Bonnie" class="rounded shadow-xl" src="@/assets/ocean_shore.jpg" />
+      <div class="flex flex-col md:w-4/5 lg:w-4/5 xl:w-2/5 xl:pl-5">
         <img
           alt="Ocean shore with heart in sand"
+          class="rounded shadow-xl"
+          src="@/assets/ocean_shore.jpg"
+        />
+        <img
+          alt="Jenn and Bonnie"
           class="rounded shadow-xl mt-24 hidden xl:block"
           src="@/assets/jenn_bonnie.jpeg"
         />
