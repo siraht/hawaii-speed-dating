@@ -9,7 +9,7 @@
         <img
           alt="Ocean shore with heart in sand"
           class="rounded shadow-xl mt-24 hidden xl:block"
-          src="@/assets/IMG_1163.jpeg"
+          src="@/assets/jenn_bonnie.jpeg"
         />
       </div>
     </div>
