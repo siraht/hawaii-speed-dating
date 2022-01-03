@@ -1,3 +1,7 @@
+<style>
+@import '@/assets/css/travis.css';
+</style>
+
 <template>
   <section class="home">
     <div class="py-24 md:py-36 mx-auto flex flex-wrap flex-col md:flex-row items-start">
