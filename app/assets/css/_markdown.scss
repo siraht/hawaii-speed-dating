@@ -101,7 +101,7 @@
 }
 
 .markdown img {
-  @apply rounded shadow-xl block md:w-4/5 lg:w-4/5 xl:hidden;
+  @apply rounded shadow-xl block;
 }
 
 /* Override pygments style background color. */
