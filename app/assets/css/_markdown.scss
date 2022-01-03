@@ -102,9 +102,18 @@
 
 .markdown img {
   @apply rounded shadow-lg
+  @media (min-width: 768px) {
+    width: 80%;
+  }
+  @media (min-width: 1024px) {
+    width: 80%;
+  }
+  @media (min-width: 1280px) {
+    display: none;
+  }
 }
 
-@media screen(md) {
+/* @media screen(md) {
   .markdown img {
     width: 80%;
   }
@@ -120,7 +129,7 @@
   .markdown img {
     display: none;
   }
-}
+} */
 
 // md:w-4/5 lg:w-4/5 xl:hidden
 // .home__welcome > p:nth-child(7) > img:nth-child(1)
