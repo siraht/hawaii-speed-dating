@@ -113,27 +113,6 @@
   @apply rounded shadow-lg
 }
 
-/* @media screen(md) {
-  .markdown img {
-    width: 80%;
-  }
-}
-
-@media screen(lg) {
-  .markdown img {
-    width: 80%;
-  }
-}
-
-@media screen(xl) {
-  .markdown img {
-    display: none;
-  }
-} */
-
-// md:w-4/5 lg:w-4/5 xl:hidden
-// .home__welcome > p:nth-child(7) > img:nth-child(1)
-
 /* Override pygments style background color. */
 .markdown .highlight pre {
   @apply bg-gray-100;
