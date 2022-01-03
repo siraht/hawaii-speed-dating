@@ -5,10 +5,11 @@
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
       </div>
       <div class="flex flex-col w-full xl:w-2/5">
+        <img alt="Jenn and Bonnie" class="rounded shadow-xl" src="@/assets/IMG_1163.jpeg" />
         <img
-          alt="Hero"
-          class="rounded shadow-xl"
-          src="@/assets/IMG_1163.jpeg"
+          alt="Ocean shore with heart in sand"
+          class="rounded shadow-xl py-24"
+          src="@/assets/ocean_shore.jpg"
         />
       </div>
     </div>
@@ -46,7 +47,8 @@ export default class Home extends Vue {
 
   validEmail(email): boolean {
     // eslint-disable-next-line
-    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const re =
+      /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
   }
 
