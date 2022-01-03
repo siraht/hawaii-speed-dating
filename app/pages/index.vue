@@ -8,7 +8,7 @@
         <img alt="Jenn and Bonnie" class="rounded shadow-xl" src="@/assets/ocean_shore.jpg" />
         <img
           alt="Ocean shore with heart in sand"
-          class="rounded shadow-xl mt-20"
+          class="rounded shadow-xl mt-24 hidden xl:block"
           src="@/assets/IMG_1163.jpeg"
         />
       </div>
