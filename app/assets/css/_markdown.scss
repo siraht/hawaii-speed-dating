@@ -32,6 +32,32 @@
   @apply text-blue-600 font-semibold;
 }
 
+.home__welcome > ol:nth-child(14) > li:nth-child(1) > a:nth-child(1) {
+  background: #0b3765;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.home__welcome > ol:nth-child(14) > li:nth-child(1) > a:nth-child(1):hover {
+  background: #fff;
+  color: #0b3765;
+  border: 1px #0b3765 solid;
+}
+
+.home__welcome > ol:nth-child(14) > li:nth-child(1) {
+  padding-bottom: 0.5rem;
+ }
+
+ .home__welcome > ol:nth-child(14) > li:nth-child(2) {
+  padding-bottom: 0.5rem;
+ }
+
+ .home__welcome > ol:nth-child(14) > li:nth-child(3) {
+  padding-bottom: 0.5rem;
+ }
+
+
 .markdown strong a {
   @apply font-bold;
 }
