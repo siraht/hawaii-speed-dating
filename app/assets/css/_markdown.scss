@@ -32,14 +32,14 @@
   @apply text-blue-600 font-semibold;
 }
 
-/* .home__welcome > ol:nth-child(14) > li:nth-child(1) > a:nth-child(1) {
+.home__welcome > ol:nth-child(11) > li:nth-child(1) > a:nth-child(1) {
   background: #0b3765;
   padding: 0.5rem;
   border-radius: 0.25rem;
   color: #fff;
-} */
+}
 
-section.home.nuxt div.py-24.md:py-36.mx-auto.flex.flex-wrap.flex-col.md:flex-row.items-start div.flex.flex-col.w-full.xl:w-3/5.justify-center.lg:items-start.overflow-y-hidden div.home__welcome.markdown ol li a {
+/* section.home.nuxt div.py-24.md:py-36.mx-auto.flex.flex-wrap.flex-col.md:flex-row.items-start div.flex.flex-col.w-full.xl:w-3/5.justify-center.lg:items-start.overflow-y-hidden div.home__welcome.markdown ol li a {
   background: #0b3765;
   padding: 0.5rem;
   border-radius: 0.25rem;
@@ -50,15 +50,15 @@ section.home.nuxt div.py-24.md:py-36.mx-auto.flex.flex-wrap.flex-col.md:flex-row
   background: #fff;
   color: #0b3765;
   border: 1px #0b3765 solid;
-}
+} */
 
-/* .home__welcome > ol:nth-child(11) > li:nth-child(1) > a:nth-child(1)
+// .home__welcome > ol:nth-child(11) > li:nth-child(1) > a:nth-child(1)
 
-.home__welcome > ol:nth-child(14) > li:nth-child(1) > a:nth-child(1):hover {
+.home__welcome > ol:nth-child(11) > li:nth-child(1) > a:nth-child(1):hover {
   background: #fff;
   color: #0b3765;
   border: 1px #0b3765 solid;
-} */
+}
 
 .home__welcome > ol:nth-child(11) > li:nth-child(1) {
   padding-bottom: 0.5rem;
